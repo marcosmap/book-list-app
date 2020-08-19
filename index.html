@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookStore</title>
+    <!--SKELETON-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="twelve columns">
+                <h1>BookStore</h1>
+                <h3>Add book</h3>
+                <div class="message"></div>
+                <form id="form">
+                    <label for="book-title">Book Title</label>
+                    <input type="text" class="u-full-width" id="book-title" autofocus>
+                    <label for="author-book">Author</label>
+                    <input type="text" class="u-full-width" id="author-book">
+                    <label for="isbn-book">ISBN</label>
+                    <input type="text" class="u-full-width" id="isbn-book">
+                    <input type="submit" class="button u-full-width" value="Submit">
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="twelve-columns">
+                <div>
+                    <table class="u-full-width">
+                        <thead>
+                          <tr>
+                            <th>Title</th>
+                            <th>Author</th>
+                            <th>ISBN</th>
+                            <th></th>
+                          </tr>
+                        </thead>
+                        <tbody class="book-list">
+                            
+                        </tbody>
+                      </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
